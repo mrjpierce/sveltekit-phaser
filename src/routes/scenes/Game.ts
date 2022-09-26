@@ -1,5 +1,4 @@
 import Phaser from 'phaser';
-import logoUrl from '$lib/assets/phaser3-logo.png'
 
 export default class Demo extends Phaser.Scene {
   constructor() {
@@ -7,7 +6,7 @@ export default class Demo extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('logo', logoUrl);
+    this.load.image('logo', '/phaser3-logo.png');
   }
 
   create() {
